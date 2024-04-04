@@ -6,8 +6,6 @@ import Header from "../components/Header";
 import Content from "../components/Content";
 import { useNavigate } from "react-router-dom";
 
-// ! ^ importing ^
-
 const App: React.FC = () => {
   // Alan
 

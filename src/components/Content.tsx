@@ -13,8 +13,6 @@ import Recipe from "../pages/Recipe";
 import Search from "../pages/Search";
 import RecipeDetail from "../pages/RecipeDetail";
 
-// ! ^ importing ^
-
 const Content: React.FC = () => {
   const navigate = useNavigate();
   const inputRef = useRef<HTMLInputElement>(null);

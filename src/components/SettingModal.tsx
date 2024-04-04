@@ -9,9 +9,9 @@ const SettingModal: React.FC<{ closeModal: () => void }> = ({ closeModal }) => {
         onClick={closeModal}
       ></i>
       <div className="font-semibold pb-5">
-        <h1 className="text-center mb-5 text-xl ">Taste Explore</h1>
+        <h1 className="text-center mb-5 text-xl ">Cook Book</h1>
         <p>
-          This recipe search engine, Taste Explorer, is designed to help users
+          This recipe search engine, Cook Book, is designed to help users
           find a wide range of recipes based on their preferences and dietary
           needs. This website also offers voice interactivity as a feature,
           allowing users to use it hands-free and make their search experience

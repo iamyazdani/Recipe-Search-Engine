@@ -1,7 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { FOOD_API_KEY } from "../key/key";
 
-
 export const recipeApi = createApi({
     reducerPath: "youtubeApi",
     baseQuery: fetchBaseQuery({

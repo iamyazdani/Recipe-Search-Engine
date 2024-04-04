@@ -5,8 +5,6 @@ import banner from "../assets/banner.jpg";
 import SettingModal from "./SettingModal";
 import { useEffect } from "react";
 
-// ! ^ importing ^
-
 const Header: React.FC = () => {
   // Modal state handling
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -53,7 +51,7 @@ const Header: React.FC = () => {
       <img src={banner} alt="banner" className="w-full h-full object-cover" />
       <div className="w-full h-full bg-black absolute top-0 left-0 opacity-[0.9]"></div>
       <div className="font-fira text-white absolute top-0 left-0 flex justify-center items-center w-full h-full flex-col">
-        <h1 className="text-4xl mb-3 text-center">TasteExplorer</h1>
+        <h1 className="text-4xl mb-3 text-center">Cook Book</h1>
         <p className="text-center ">
           Discover Delicious Recipes from Around the World.
         </p>

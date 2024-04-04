@@ -6,8 +6,6 @@ import Error from "../components/Error";
 import Loading from "../components/Loading";
 import RecipeCard from "../components/RecipeCard";
 
-// ! ^ importing ^
-
 const Recipe: React.FC = () => {
   const { name } = useParams();
   const { data, isFetching, isError } = useGetCountryFoodQuery(name);

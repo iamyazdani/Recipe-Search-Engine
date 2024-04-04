@@ -5,7 +5,7 @@ const Error: React.FC = () => {
     <div className="flex justify-center items-center w-full h-[300px] font-fira font-semibold">
       <i className="fa-solid fa-circle-exclamation text-red-700 text-xl mr-5"></i>
       <h1 className=" text-xl font-mono text-red-700">
-        Opps ! Somthing Went Wrong!
+        Oops ! Somthing Went Wrong!
       </h1>
     </div>
   );

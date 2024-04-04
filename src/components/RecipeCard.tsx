@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-// ! ^ importing ^
-
 const RecipeCard = ({ recipe }: any) => {
   // jsx
   return (

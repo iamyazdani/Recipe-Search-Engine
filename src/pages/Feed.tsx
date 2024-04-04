@@ -5,8 +5,6 @@ import Error from "../components/Error";
 import Loading from "../components/Loading";
 import RecipeCard from "../components/RecipeCard";
 
-// ! ^ importing ^
-
 const Feed: React.FC = () => {
   const { data, isFetching, isError } = useGetCountryFoodQuery("dessert");
 
